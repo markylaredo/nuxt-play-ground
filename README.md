@@ -1,4 +1,5 @@
 # nuxt-play-ground
+[Site Demo](https://app-nuxt-playground.netlify.app/)
 
 ## Build Setup
 
