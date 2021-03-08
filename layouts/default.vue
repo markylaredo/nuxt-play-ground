@@ -1,20 +1,65 @@
 <template>
-  <div>
+  <div class="p-container">
     <Nuxt />
   </div>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      title: 'Nuxt play ground 🤪',
+    }
+  },
+}
+</script>
 
 <style>
+table,
+th,
+td {
+  border: 1px solid black;
+}
+/* .container {
+  margin: 0 auto;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+.title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
+}
+
+.p-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px;
+  padding: 20px;
+  /* background-color: #3b8070; */
+  /* font-size: 30px; */
+}
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
