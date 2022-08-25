@@ -10,5 +10,8 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   components: true,
-  modules: ['@nuxtjs/axios'],
+  modules: ['@nuxtjs/axios'],  
+  buildModules: [
+    '@nuxtjs/vuetify',
+  ],
 }
