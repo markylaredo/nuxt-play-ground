@@ -3,6 +3,7 @@
     <v-btn @click="cmpVModel">Component v-model</v-btn>
     <v-btn @click="dynamicFields">Table dynamic fields</v-btn>
     <v-btn @click="qrCodeScanner">QrCode/Barcode Scanner</v-btn>
+    <v-btn to="/table/custom-data-table">Custom Data Table</v-btn>
     <v-card-text> </v-card-text>
     <div class="container">
       <nuxt-child />
